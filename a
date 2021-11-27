@@ -1,0 +1,33 @@
+[info] Loading settings from plugins.sbt ...
+[info] Loading project definition from C:\Users\x03099\Documents\DONTDELETE\Classes\Cow Classes S1\CS478 Programming Languages\Homeworks\hw4-UnBothered1\project
+[info] Loading settings from build.sbt ...
+[warn] C:\Users\x03099\Documents\DONTDELETE\Classes\Cow Classes S1\CS478 Programming Languages\Homeworks\hw4-UnBothered1\hw4.scala:49: When a codeline gets too long, you should break it into
+[warn]   multiple lines. Why? Because overly long lines are hard to read. Such lines
+[warn]   often get cut off when printing your code. Other viewers may force the reader
+[warn]   to scroll to see the rest of the line. GitHub is particularly bad this,
+[warn]   because it forces the reader to scroll but gives no visual indication that
+[warn]   there is any reason to scroll.
+[warn]   
+[warn] C:\Users\x03099\Documents\DONTDELETE\Classes\Cow Classes S1\CS478 Programming Languages\Homeworks\hw4-UnBothered1\hw4.scala:15:12: Avoid whitespace at the end of a line. It can cause needless differences for version control.
+[warn] warnings exist
+CS478: hw4 (EECS Tester 0.4.3)
+UnBothered1
+Testing EvenXs on '(XX)*'
+  PASSED
+Testing OddXs on '(XX)*X'
+  PASSED
+Testing OddXsAnyYs on 'Y*(XY*XY*)*XY*'
+  PASSED
+*** Ignoring DsSeparatedByCs
+*** Ignoring AlternatingXsAndYs
+*** Ignoring No3AsOrBsInARow
+Testing NoABBA on '(a|b)?(a|b|bbb|aaa|aba|bab)(a|b)?|((a|b)?(a|b)?(a|b)?)'
+  !! Regular expression REJECTS "aabb" but should ACCEPT it
+  !! Regular expression REJECTS "bbaa" but should ACCEPT it
+  FAILED
+*** Ignoring ABCsNo2InARow
+*** Ignoring OddAsOddBs
+Testing IBeforeEExceptAfterC on '(x*c+e*x*i*x*e*x*)|(i|c|x)*|(e|c|x)*'
+  !! Regular expression REJECTS "ie" but should ACCEPT it
+  !! Regular expression REJECTS "eci" but should ACCEPT it
+  FAILED
